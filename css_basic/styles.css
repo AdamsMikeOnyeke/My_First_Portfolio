@@ -1,12 +1,14 @@
 body {
     display:flex;
     flex-direction: column;
+    background-color: blueviolet;
 }
 
 main {
     display:flex;
     flex-direction: row;
     flex: auto;
+    background-color: black;
 }
 
 article {
@@ -17,4 +19,32 @@ article {
 aside {
     flex:1;
     overflow-y: auto;
+}
+
+table {
+    color:beige;
+}
+
+footer {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    color: beige;
+}
+
+h2 {
+    color:beige;
+}
+
+h3 {
+    color:beige;
+}
+
+p {
+    color:beige;
 }
